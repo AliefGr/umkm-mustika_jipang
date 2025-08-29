@@ -26,7 +26,7 @@ export function Highlight({
 
 export interface TestimonialCardProps {
   name: string;
-  role: string;
+  role?: string;
   img?: string;
   description: React.ReactNode;
   className?: string;
@@ -182,7 +182,9 @@ export default function Testimonialss() {
           <h1 className="text-white  text-center font-bold  lg:text-6xl text-4xl mb-2">
             Testimonial
           </h1>
-          <p className="text-center mb-20">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <p className="text-center mb-20">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+          </p>
           {/* <h3 className="text-muted-foreground mx-auto mb-8 max-w-lg text-center text-lg font-medium tracking-tight text-balance">
             Don&apos;t just take our word for it. Here&apos;s what{" "}
             <span className="bg-gradient-to-r from-blue-500 to-sky-500 bg-clip-text text-transparent">
