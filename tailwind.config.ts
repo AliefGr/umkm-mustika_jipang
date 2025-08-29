@@ -34,10 +34,24 @@ const config: Config = {
           hover: "#a08161",
         },
       },
+      animation: {
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
+      },
       backgroundImage: {
         hero_overlay: "url('/assets/hero/hero-overlay.png')",
         opening_hours: "url('/assets/opening-hours/bg.png')",
-        footer: "url('/assets/footer/bg.png')",
+        footer: "url('/assets/jipang2.png')",
       },
     },
   },

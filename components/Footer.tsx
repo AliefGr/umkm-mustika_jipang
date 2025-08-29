@@ -5,10 +5,10 @@ import { FaYoutube, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const links = [
   { href: "/", name: "Home" },
-  { href: "/", name: "Explore" },
-  { href: "/", name: "About" },
-  { href: "/", name: "Menu" },
-  { href: "/", name: "Contact" },
+  { href: "#about", name: "About" },
+  { href: "#menu", name: "Menu" },
+  { href: "#testimonial", name: "Testimonial" },
+  { href: "#contact", name: "Contact" },
 ];
 
 const socialIcons = [
@@ -27,7 +27,12 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center gap-14">
           {/* logo */}
           <Link href="/" className="relative w-[120px] h-[50px] mx-auto">
-            <Image src="/assets/logo.svg" fill alt="" className="object-contain" />
+            <Image
+              src="/assets/mustika.png"
+              fill
+              alt=""
+              className="object-contain"
+            />
           </Link>
           {/* nav */}
           <nav className="flex flex-col xl:flex-row gap-8 xl:gap-12 justify-center items-center">
@@ -55,7 +60,7 @@ const Footer = () => {
           </ul>
           {/* copyright */}
           <div className="border-t border-white/10 text-[15px] text-white/70 font-light w-full flex items-center justify-center py-6">
-            <p>&copy; Copyright 2024 - Zenbrew. All rights reserved.</p>
+            <p>&copy; Copyright 2025 - Mustika Jipang. All rights reserved.</p>
           </div>
         </div>
       </div>

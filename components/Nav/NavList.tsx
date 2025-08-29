@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const links = [
-  { href: "/", name: "Home" },
-  { href: "/", name: "Explore" },
-  { href: "/", name: "About" },
-  { href: "/", name: "Menu" },
-  { href: "/", name: "Contact" },
+  { href: "/#", name: "Home" },
+  { href: "#", name: "Explore" },
+  { href: "#about", name: "About" },
+  { href: "#about", name: "Menu" },
+  { href: "", name: "Contact" },
 ] as const;
 
 const letterAnim = {

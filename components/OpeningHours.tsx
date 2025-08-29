@@ -4,7 +4,7 @@ import Separator from "./Separator";
 
 const OpeningHours = () => {
   return (
-    <section className="flex bg-primary h-[60vh] xl:h-[80vh]">
+    <section className="flex bg-primary h-[60vh] xl:h-[80vh] container mx-auto">
       {/* 1 */}
       <div className="hidden relative xl:flex flex-1 justify-center items-center">
         {/* overlay */}
@@ -17,11 +17,11 @@ const OpeningHours = () => {
           priority
           className="object-cover"
         />
-        <Badge containerStyles="w-[320px] h-[320px] absolute z-40" />
+        {/* <Badge containerStyles="w-[320px] h-[320px] absolute z-40" /> */}
       </div>
 
       {/* 2 */}
-      <div className="flex-1 bg-opening_hours bg-cover bg-no-repeat flex flex-col justify-center items-center relative">
+      <div className=" flex-1 bg-opening_hours bg-cover bg-no-repeat flex flex-col justify-center items-center relative">
         {/* overlay */}
         <div className="w-full h-full absolute top-0 bg-black/[0.85] z-10" />
         {/* text & images */}

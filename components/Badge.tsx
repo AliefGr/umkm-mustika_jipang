@@ -7,7 +7,7 @@ type PropsType = {
 const Badge = ({ containerStyles }: PropsType) => {
   return (
     <div className={`relative ${containerStyles}`}>
-      <Image src="/assets/badge.svg" fill alt="" className="object-contain" />
+      <Image src="/assets/mustika.png" fill alt="" className="object-contain" />
     </div>
   );
 };

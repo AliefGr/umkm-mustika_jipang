@@ -24,12 +24,31 @@
     @apply text-lg;
   }
   .btn {
-    @apply min-w-[156px] h-[54px] px-6 bg-accent hover:bg-accent-hover text-primary text-[13px] uppercase font-semibold tracking-[.15em] transition-all;
+    @apply  bg-accent hover:bg-accent-hover text-primary text-[13px] uppercase font-semibold tracking-[.15em] transition-all;
   }
 }
+
+
+
 
 /* swiper navigation arrow styles */
 .swiper-button-next::after,
 .swiper-button-prev::after {
   @apply text-primary !text-[2rem];
 }
+
+/* :user-valiMerah Logo: #B51D1D
+
+Krem/Emas: #D6B17F
+
+Coklat Tua: #3B2B20
+
+Putih Tulang: #FAF3E0
+
+Putih Tulang: #4B2E2B
+
+Cream Hangat: #F5E0C3 (untuk teks utama dan tombol)
+
+Coklat Muda / Karamel: #CFA66B (untuk aksen)
+
+Merah Bata Hangat: #B94E48 (untuk menggantikan merah tua “Mu */
