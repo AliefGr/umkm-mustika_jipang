@@ -5,7 +5,6 @@ import { MdOutgoingMail, MdOutlinePhone } from "react-icons/md";
 import { MdOutlineMail } from "react-icons/md";
 import { TbLocation } from "react-icons/tb";
 
-
 const Contactt = () => {
   const googleMapsUrl =
     "https://www.google.com/maps/dir/?api=1&destination=-7.676782479172385,109.6696846642689";
@@ -58,7 +57,7 @@ const Contactt = () => {
             <div className="border-t border-t-gray-300 py-4">
               <a href={googleMapsUrl} target="_blank">
                 <button className="btn text-white w-full rounded-lg py-3 lg:py-4 font-semibold">
-                     Lihat Rute
+                  Lihat Rute
                 </button>
               </a>
             </div>
@@ -70,9 +69,9 @@ const Contactt = () => {
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowfullscreen={true}
+              allowFullScreen={true}
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
